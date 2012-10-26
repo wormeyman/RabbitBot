@@ -3,18 +3,22 @@
   "version": "0.1.0",
   "author": "Fabian Thoma <fabian@elementaryos.org>",
   "description": "A nice bot to go with the #elementary channels",
+
   "contributors": [ 
     {
       "name": "Fabian Thoma",
       "email": "fabian@elementaryos.org"
     } 
   ],
+
   "dependencies" : {
-    "irc"   :  ">=0.3.4",
-    "mongoose" :  ">=2.7.0"
+    "irc": ">=0.3.4",
+    "mongoose": ">=2.7.0"
   },
+
   "noAnalyze": true,
   "license": "GPL",
+
   "engine": {
     "node": ">=0.6"
   }
