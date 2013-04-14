@@ -23,6 +23,11 @@ var config = require('./config.js');
 
 var client = new irc.Client(config.login.host, config.login.nick, config.profile);
 
+client.connect(function (){
+    client.say("NickServ", "IDENTIFY " + config.login.password);  
+});
+
+
 commands.init(client);
 
 // Load our modules
